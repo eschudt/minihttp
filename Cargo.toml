@@ -9,6 +9,6 @@ include = ["src/*.rs", "Cargo.toml"]
 repository = "https://github.com/eschudt/minihttp"
 
 [dependencies]
-miniurl = "0.1.3"
-minihttpse = "0.1.6"
-native-tls = "0.2"
+miniurl = { version = "0.1.3", registry = "crates" }
+minihttpse = { version = "0.1.6", registry = "crates" }
+native-tls = { version = "0.2", registry = "crates" }
