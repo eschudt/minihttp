@@ -2,7 +2,8 @@
 name = "minihttp"
 version = "0.2.0"
 authors = ["Erich Schudt <erich_schudt@live.com>"]
-license = "MIT/Apache-2.0"
+license = "MIT"
+readme = "README.md"
 description = "minihttp is a simple and lightweight http client lib for rust."
 include = ["src/*.rs", "Cargo.toml"]
 repository = "https://github.com/eschudt/minihttp"
